@@ -20,24 +20,36 @@
   <style>
     .text1 {
       transform-origin: 50% 50%;
-      animation: 2s alternate infinite ease-in-out a0_t;
+      animation: 2s alternate infinite ease-in-out bounce;
     }
     .text2 {
       transform-origin: 50% 50%;
-      animation: 1.5s alternate infinite ease-in-out a0_t;
+      animation: 1.5s alternate infinite ease-in-out bounce;
     }
     .text3 {
       transform-origin: 35% 50%;
-      animation: 2.5s alternate infinite ease-in-out a0_t;
+      animation: 2.5s alternate infinite ease-in-out bounce;
     }
     .text4 {
       transform-origin: 25% 50%;
-      animation: 1.8s alternate infinite ease-in-out a0_t;
+      animation: 1.8s alternate infinite ease-in-out bounce;
     }
-    @keyframes a0_t {
+    #g20-0-3 {
+      animation: 2s alternate infinite cubic-bezier(.45,.05,.55,.95) float;
+      transform-box: fill-box;
+      transform-origin: 110px 158px;
+      transform: translate(95px, 145px);
+      rotate: 199deg;
+    }
+    @keyframes bounce {
       0%  { scale: 1 1; rotate: 3deg; }
       50% { scale: 1.02 1.02; }
       100% { scale: 1 1; rotate: -3deg; }
+    }
+    @keyframes float {
+      0%  { scale: 1 1; }
+      50% { scale: 1.15 1.15; }
+      100% { scale: 1 1;}
     }
   </style>
   <sodipodi:namedview
