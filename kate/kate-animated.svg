@@ -51,10 +51,11 @@
     }
     @keyframes float {
       0%  { scale: 1 1; }
-      50% { scale: 1.1 1.1; }
-      70% { scale: 1.1 1.3; }
-      80% { scale: 1.2 1.2; }
-      90% { scale: 1.3 1.3; }
+      50% { scale: 1 1; }
+      70% { scale: 1.1 1.1; }
+      75% { scale: 1.1 1.3; }
+      80% { scale: 1.3 1.2; }
+      85% { scale: 1.3 1.3; }
       100% { scale: 1 1; }
     }
   </style>
