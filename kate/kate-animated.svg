@@ -18,45 +18,54 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <style>
-    .text1 {
-      transform-origin: 50% 50%;
+    #text6-4 {
+      transform-origin: 25% 50%;
       animation: 2s alternate infinite ease-in-out bounce;
     }
-    .text2 {
-      transform-origin: 50% 50%;
+    #text5-1 {
+      transform-origin: 35% 50%;
       animation: 1.5s alternate infinite ease-in-out bounce;
     }
-    .text3 {
-      transform-origin: 35% 50%;
+    #text4-3 {
+      transform-origin: 50% 50%;
       animation: 2.5s alternate infinite ease-in-out bounce;
     }
-    .text4 {
-      transform-origin: 25% 50%;
+    #text3-4 {
+      transform-origin: 50% 50%;
       animation: 1.8s alternate infinite ease-in-out bounce;
     }
     #g20-0-3 {
-      animation: 2s normal infinite cubic-bezier(.45,.05,.55,.95) float;
+      animation: 2s normal infinite cubic-bezier(.45,.05,.55,.95) boing;
       transform-box: fill-box;
       transform-origin: 110px 158px;
       transform: translate(95px, 145px);
       rotate: 199deg;
     }
     #g11-9-3 {
-
+      animation: 3s alternate infinite cubic-bezier(.45,.05,.55,.95) rotate_slow;
+      transform-box: fill-box;
+      transform-origin: 100px 15px;
+      transform: translate(30px, 10px);
     }
     @keyframes bounce {
       0%  { scale: 1 1; rotate: 3deg; }
       50% { scale: 1.02 1.02; }
       100% { scale: 1 1; rotate: -3deg; }
     }
-    @keyframes float {
+    @keyframes boing {
       0%  { scale: 1 1; }
       50% { scale: 1 1; }
-      70% { scale: 1.1 1.1; }
+      60% { scale: 1.2 1.1; }
+      70% { scale: 1.1 1.2; }
       75% { scale: 1.1 1.3; }
       80% { scale: 1.3 1.2; }
       85% { scale: 1.3 1.3; }
       100% { scale: 1 1; }
+    }
+    @keyframes rotate_slow {
+      0%  { rotate: -1deg; }
+      50% { rotate: 2deg; }
+      100% { rotate: -1deg; }
     }
   </style>
   <sodipodi:namedview
@@ -2101,4 +2110,5 @@
          d="m 127.96013,60.880316 c 0.29725,0.166461 0.59934,0.200869 0.88156,0.141206 1.59917,-0.338083 7.67379,-5.84809 6.91334,-15.023321 l -0.0199,-0.09407 c -0.0663,-0.313564 -0.37197,-0.674793 -0.90681,-0.72551 -1.27773,-0.155728 -3.86274,-0.297145 -5.63554,-0.31545 l 9.91401,-1.604559 c 0.37627,-0.07955 0.66815,-0.403319 0.61333,-0.817582 l -0.7272,-4.989251 c -0.0862,-0.407634 -0.62944,-0.653119 -1.01235,-0.604925 l -14.56317,2.390897 c -0.0191,-1.175236 -0.0944,-2.305857 -0.30651,-3.309263 -0.15247,-0.721197 -0.46299,-0.950372 -1.11001,-0.911859 -1.62747,0.04924 -3.96774,0.44573 -5.74538,0.559478 l -0.094,0.01988 c -0.56441,0.119323 -0.68448,0.636073 -0.6429,0.987622 0.29094,2.460849 0.74361,8.785695 0.57926,11.572104 -0.005,0.132045 -0.0163,0.232754 0.0102,0.35818 0.0597,0.282207 0.30747,0.52464 0.8158,0.449931 l 4.45798,-0.451096 0.12543,-0.02652 c 0.59577,-0.125953 0.73572,-0.548634 1.2292,-2.55292 l 5.13278,-0.823062 c -0.19297,0.171828 -0.24727,0.379854 -0.20087,0.599349 0.65628,3.104287 -0.68372,9.316756 -3.73698,11.763931 -0.22433,0.178457 -0.30335,0.42447 -0.25032,0.675321 0.053,0.250851 0.2315,0.475186 0.49076,0.616922 z"
          id="text9-6"
          style="font-size:32.0495px;font-family:'FOT-Yuruka Std';-inkscape-font-specification:'FOT-Yuruka Std, Normal';letter-spacing:0px;word-spacing:0px;fill:#01caff;stroke-width:0.529952;stroke-linecap:round;stroke-linejoin:bevel"
-         aria-label="ケ" /></g></g></svg>
+         aria-label="ケ" /></g></g>
+</svg>
