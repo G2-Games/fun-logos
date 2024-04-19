@@ -2,7 +2,7 @@
 Fun logos I made.
 
 This repo is inspired by:
-https://github.com/Aikoyori/ProgrammingVTuberLogos/tree/main/VSCode
+https://github.com/Aikoyori/ProgrammingVTuberLogos/
 
 ## Kate
 KDE Advanced Text Editor: https://kate-editor.org/
