@@ -7,7 +7,9 @@ https://github.com/Aikoyori/ProgrammingVTuberLogos/
 ## Kate
 KDE Advanced Text Editor: https://kate-editor.org/
 
-<img width="400" src="kate.svg">
+<img width="400" src="kate/kate.svg">
+
+<img width="400" src="kate/kate-animated.svg">
 
 # License
 This content is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
