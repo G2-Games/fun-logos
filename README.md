@@ -7,6 +7,8 @@ https://github.com/Aikoyori/ProgrammingVTuberLogos/
 ## Kate
 KDE Advanced Text Editor: https://kate-editor.org/
 
+The modified Kate logo is a derivative of the [official Kate logo by Tyson Tan](https://kate-editor.org/post/2020/2020-01-25-new-kate-icon/).
+
 <img width="400" src="kate/kate.svg">
 
 <img width="400" src="kate/kate-animated.svg">
